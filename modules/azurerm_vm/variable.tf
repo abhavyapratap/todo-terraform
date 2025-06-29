@@ -1,0 +1,15 @@
+variable "vm_name" {}
+variable "resource_group_name" {}
+variable "location" {}
+variable "size" {}
+variable "computer_name" {}
+variable "network_interface_ids" {}
+variable "os_disk_name" {}
+variable "publisher" {}
+variable "offer" {}
+variable "sku" {}
+variable "version1" {}
+variable "key_name" {}
+variable "username_secret_key" {}
+variable "pwd_secret_key" {}
+variable "custom_data" {}
