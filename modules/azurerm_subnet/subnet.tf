@@ -1,3 +1,4 @@
+# This is subnet...
 resource "azurerm_subnet" "subnet" {
   name                 = var.subnet_name
   resource_group_name  = var.resource_group_name

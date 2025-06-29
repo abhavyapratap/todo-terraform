@@ -1,3 +1,4 @@
+# This is public_ip....
 resource "azurerm_public_ip" "public_ip" {
   name                = var.publicip_name
   resource_group_name = var.resource_group_name

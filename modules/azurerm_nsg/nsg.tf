@@ -1,3 +1,4 @@
+# This is resource group...
 resource "azurerm_network_security_group" "nsg" {
   name                = var.nsg_name
   location            = var.location
